@@ -1,0 +1,264 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header{
+  font-family: sans-serif;
+  position: absolute;
+}
+.datetime {
+  font-size: 16px;
+  padding: 24px;
+  color: #ffffff;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border-right: 10px #009688 solid;
+  width: 400px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  
+}
+.background{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(background.jpg);
+}
+.logo{
+width: 100px;
+margin-top: 60px;
+margin-left: 60px;
+}
+.title{
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 17%;
+  margin-left: 42%;
+  font-size: 50px;
+  font-family: Arial;
+  display:inline-block;
+}
+.title h1{
+  font-size: 70px;
+  text-align: center;
+  margin-left: 0px;
+  
+}
+.title p{
+  font-size: 16px;
+  text-align: center;
+  margin-left: 0px;
+}
+a{
+  text-decoration: unset;
+}
+.left{
+  color: #fff;
+  width: 49.9%;
+  float: left;
+  text-align: center;
+  z-index: 1;
+  margin-top: -800px;
+  
+}
+.right{
+  color: #fff;
+  width: 49.9%;
+  float: right;
+  text-align: center;
+  z-index: 1;
+  margin-top: -800px;
+  
+}
+.linedivider{
+    border-left: 0.2px solid white;
+    height: 420px;
+    position: absolute;
+    left: 50%;
+    margin-left: 0px;
+    top: 470px;
+    color: aqua;
+}
+.left h1{
+  font-size: 40px;
+  text-align: center;
+}
+.right h1{
+  font-size: 40px;
+  text-align: center;
+}
+button{
+  width: 75px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.filler::before{
+  content: ' ';
+  height: 100%;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+  z-index: -1;
+ 
+}
+.filler:hover::before{
+  width: 100%;
+}
+.filler{
+  z-index: 1;
+}
+
+@media only screen and (max-width:2560px){
+      .left, .right{
+        margin-top: -850px;
+      }
+      .datetime{
+        color: #ffffff;
+        margin-left: 2050px;
+        margin-top: -220px;
+      }
+}
+@media only screen and (max-width:1920px){
+      .linedivider{
+        margin-top: -150px;
+      }
+      .title h1{
+        margin-left: -40px;
+      }
+      .title p{
+        margin-left: -40px;
+      }
+      .left, .right{
+        margin-top: -650px;
+      }
+      .logo img{
+        width: 180px;
+      }
+      .datetime{
+        color: #ffffff;
+        margin-left: 1450px;
+        margin-top: -220px;
+        width: 370px;
+      }
+}
+@media only screen and (max-width:1600px){
+  .logo img{
+    width: 150px;
+  }
+  .navigation{
+    margin-top:-210px;
+  }
+  .left, .right{
+    margin-top: -600px;
+  }
+  .background{
+   height: 120vh;
+  }
+  .linedivider{
+    margin-top: -170px;
+    height: 520px;
+  }
+  .title{
+    margin-left: 600px;
+  }
+  .datetime{
+    color: #ffffff;
+    margin-left: 1100px;
+    margin-top: -170px;
+    width: 300px;
+  }
+
+}
+@media only screen and (max-width:1280px){
+  .logo img{
+    width: 140px;
+  }
+  .navigation{
+    margin-left: 200px;
+    font-size: 20px;
+  }
+  .left, .right{
+    margin-top: -720px;
+  }
+  .linedivider{
+    height: 600px;
+  }
+  .title{
+    margin-left: 480px;
+  }
+  header, section, footer{
+    width: 100%;
+  }
+  .background{
+    height: 160vh;
+  }
+  
+}
+@media only screen and (max-width:812px){
+  header, section, footer{
+    width: 100%;
+  }
+  .logo img{
+    width: 150px;
+    margin-left: -40px;
+    margin-top: -5px;
+  }
+  .left, .right{
+    margin-top: -1950px;
+  }
+
+  .navigation{
+    margin-top: -200px;
+  }
+  .title h1{
+    font-size: 50px;
+    margin-left: -100px;
+    margin-top: 100px;
+  }
+  .title p{
+    margin-left: -110px;
+  }
+  .linedivider{
+    height: 1800px;
+    margin-top: -80px;
+  }
+  .background{
+    height: 290vh;
+  }
+  .title{
+    margin-left: 175px;
+  }
+  .datetime{
+    color: #ffffff;
+    margin-left: 140px;
+    margin-top: -180px;
+    width: 200px;
+    padding: 8px;
+    font-size: 15px;
+  }
+}
+
+
+
+    
+
+
+
+

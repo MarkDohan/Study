@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  font-family: sans-serif;
+  position: absolute;
+}
+.background{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.80)), url(backgroundBlur.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.scroll-down{
+  position: absolute;
+  left: 430px;
+  top: 40px;
+  
+}
+.scroll-down i{
+  display: block;
+  padding: 12px;
+  font-size: 25px;
+  color: #fff;
+  background: #009688;
+  border-radius: 30px;
+  transition: all .50s ease;
+  
+}
+.scroll-down i:hover{
+  transform: translateY(-5px);
+}
+.title{
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 17%;
+  margin-left: 42%;
+  font-size: 50px;
+  font-family: Arial;
+}
+.title h1{
+  font-size: 70px;
+  text-align: center;
+}
+.title p{
+  font-size: 16px;
+  text-align: center;
+}
+a{
+  text-decoration: unset;
+}
+
+@media only screen and (max-width:2560px){
+  section h1{
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  section p{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+    
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  section{
+   height: 110vh;
+  }
+  .background{
+    height: 2507vh;
+  }
+}
+@media only screen and (max-width:1920px){
+  section p{
+    font-size: 35px;
+  }
+  .background{
+    height: 2830vh;
+  }
+}
+@media only screen and (max-width:1600px){
+  .background{
+    height: 3907vh;
+}
+}
+@media only screen and (max-width:1280px){
+
+}
+@media only screen and (max-width:812px){
+  section h1{
+    font-size: 50px;
+  }
+  .scroll-down{
+    left: 310px;
+    top: 25px;
+    position: absolute;
+  }
+  section p{
+    font-size: 28px;
+  }
+  .background{
+    height: 6259vh;
+  }
+}
