@@ -256,6 +256,20 @@ button{
     margin-right: auto;
     height: 250%;
   }
+  button{
+    width: 70px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 35px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
 }
 
 
