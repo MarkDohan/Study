@@ -8,12 +8,12 @@ header{
   position: absolute;
 }
 .datetime {
-  font-size: 16px;
-  padding: 24px;
+  font-size: 1rem;
+  padding: 1.5rem;
   color: #ffffff;
   background: transparent;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
+  border-radius: 0.4rem;
   border-right: 10px #009688 solid;
   width: 400px;
   font-weight: 500;
@@ -30,8 +30,8 @@ header{
 }
 .logo{
 width: 100px;
-margin-top: 60px;
-margin-left: 60px;
+margin-top: 60%;
+margin-left: 60%;
 }
 .title{
   color: #fff;
@@ -39,20 +39,20 @@ margin-left: 60px;
   text-align: center;
   top: 17%;
   margin-left: 42%;
-  font-size: 50px;
+  font-size: 5rem;
   font-family: Arial;
   display:inline-block;
 }
 .title h1{
-  font-size: 70px;
+  font-size: 4rem;
   text-align: center;
-  margin-left: 0px;
+  margin-left: 0%;
   
 }
 .title p{
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
-  margin-left: 0px;
+  margin-left: 0%;
 }
 a{
   text-decoration: unset;
@@ -63,7 +63,7 @@ a{
   float: left;
   text-align: center;
   z-index: 1;
-  margin-top: -800px;
+  margin-top: 80%;
   
 }
 .right{
@@ -72,24 +72,24 @@ a{
   float: right;
   text-align: center;
   z-index: 1;
-  margin-top: -800px;
+  margin-top: 80%;
   
 }
 .linedivider{
     border-left: 0.2px solid white;
-    height: 420px;
+    height: 20%;
     position: absolute;
     left: 50%;
     margin-left: 0px;
-    top: 470px;
+    top: 66%;
     color: aqua;
 }
 .left h1{
-  font-size: 40px;
+  font-size: 3rem;
   text-align: center;
 }
 .right h1{
-  font-size: 40px;
+  font-size: 3rem;
   text-align: center;
 }
 button{
@@ -124,27 +124,36 @@ button{
 .filler{
   z-index: 1;
 }
-
+@media only screen and (max-width:3200px){
+     
+}
 @media only screen and (max-width:2560px){
       .left, .right{
-        margin-top: -850px;
+        margin-top: -34%;
+        
       }
       .datetime{
         color: #ffffff;
         margin-left: 2050px;
         margin-top: -220px;
       }
+      .linedivider{
+        margin-top: -16%;
+        height: 30%;
+      }
+      .title{
+        margin-left: 43.2%;
+      }
 }
 @media only screen and (max-width:1920px){
       .linedivider{
-        margin-top: -150px;
+        margin-top: -15.5%;
+        height: 50%;
       }
-      .title h1{
-        margin-left: -40px;
+      .title{
+        margin-left: 40.9%;
       }
-      .title p{
-        margin-left: -40px;
-      }
+      
       .left, .right{
         margin-top: -650px;
       }
@@ -157,30 +166,31 @@ button{
         margin-top: -220px;
         width: 370px;
       }
+      
 }
 @media only screen and (max-width:1600px){
   .logo img{
-    width: 150px;
+    margin-left: 20%;
+    margin-top: 20%;
+    width: 9.5rem;
   }
-  .navigation{
-    margin-top:-210px;
-  }
+  
   .left, .right{
-    margin-top: -600px;
+    margin-top: -40%;
   }
   .background{
    height: 120vh;
   }
   .linedivider{
-    margin-top: -170px;
-    height: 520px;
+    margin-top: -12%;
+    height: 70%;
   }
   .title{
-    margin-left: 600px;
+    margin-left: 38.6%;
   }
   .datetime{
     color: #ffffff;
-    margin-left: 1100px;
+    margin-left: 1115%;
     margin-top: -170px;
     width: 300px;
   }
@@ -212,53 +222,43 @@ button{
   
 }
 @media only screen and (max-width:812px){
-  header, section, footer{
-    width: 100%;
-  }
   .logo img{
-    width: 150px;
-    margin-left: -40px;
-    margin-top: -5px;
+    margin-left: -225%;
+    margin-top: -205%;
+  }
+  .datetime{
+    margin-left: -120%;
+    margin-top: -240%;
+    width: 260%;
+  }
+  .title{
+    margin-left: 8.1%;
+    font-size: rem;
+    margin-top: 40%;
+    justify-content: center;
+  }
+  
+  .left h1{
+    font-size: 2.5rem;
+  }
+  .right h1{
+    font-size: 2.5rem;
   }
   .left, .right{
-    margin-top: -1950px;
-  }
-
-  .navigation{
-    margin-top: -200px;
-  }
-  .title h1{
-    font-size: 50px;
-    margin-left: -100px;
-    margin-top: 100px;
-  }
-  .title p{
-    margin-left: -110px;
-  }
-  .linedivider{
-    height: 1800px;
-    margin-top: -80px;
+    margin-top: -459%;
   }
   .background{
     height: 290vh;
   }
-  .title{
-    margin-left: 175px;
-  }
-  .datetime{
-    color: #ffffff;
-    margin-left: 140px;
-    margin-top: -180px;
-    width: 200px;
-    padding: 8px;
-    font-size: 15px;
+  .linedivider{
+    margin-top: -10%;
+    height: 250%;
   }
 }
 
 
 
     
-
 
 
 
