@@ -1,93 +1,144 @@
 <!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <title>Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!--box icons-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+  <script src="script.js"></script>
 </head>
 <body>
   <div class="background">
-    <div class="flex-container">
-      <div class="logo">
-        <img src="Whitelogo.png" alt="Logo">
-      </div>
-      <div  class="title"><h5>Bible Study</h1></div>
-      <div class="subtitle"><p>With Mark</p></div>
-    <main>
-      <div class="left">
-        <h1>Vechiul Testament</h1>
-    <a href="Genesa.html"><button class="filler">Gen.</button></a>
-    <a href="Exod.html"><button class="filler">Exod.</button></a>
-    <a href="Levi.html"><button class="filler">Lev.</button></a>
-    <a href="Num.html"><button class="filler">Num.</button></a>
-    <a href="Deut.html"><button class="filler">Deut.</button></a>
-    <a href="Ios.html"><button class="filler">Ios.</button></a>
-    <a href="Judc.html"><button class="filler">Judc.</button></a>
-    <a href="Rut.html"><button class="filler">Rut.</button></a>
-    <a href="1Sam.html"><button class="filler">1Sam.</button></a>
-    <a href="2Sam.html"><button class="filler">2Sam.</button></a>
-    <a href="1Reg.html"><button class="filler">1Reg.</button></a>
-    <a href="2Reg.html"><button class="filler">2Reg.</button></a>
-    <a href="1Cron.html"><button class="filler">1Cron.</button></a>
-    <a href="2Cron.html"><button class="filler">2Cron.</button></a>
-    <a href="Ezra.html"><button class="filler">Ezra.</button></a>
-    <a href="Neem.html"><button class="filler">Neem.</button></a>
-    <a href="Est.html"><button class="filler">Est.</button></a>
-    <a href="Iov.html"><button class="filler">Iov.</button></a>
-    <a href="Ps.html"><button class="filler">Ps.</button></a>
-    <a href="Prov.html"><button class="filler">Prov.</button></a>
-    <a href="Ecl.html"><button class="filler">Ecl.</button></a>
-    <a href="Cint.html"><button class="filler">Cint.</button></a>
-    <a href="Isa.html"><button class="filler">Isa.</button></a>
-    <a href="Ier.html"><button class="filler">Ier.</button></a>
-    <a href="Pling.html"><button class="filler">Pling.</button></a>
-    <a href="Ezec.html"><button class="filler">Ezec.</button></a>
-    <a href="Dan.html"><button class="filler">Dan.</button></a>
-    <a href="Osea.html"><button class="filler">Osea.</button></a>
-    <a href="Ioel.html"><button class="filler">Ioel.</button></a>
-    <a href="Amos.html"><button class="filler">Amos.</button></a>
-    <a href="Obad.html"><button class="filler">Obad.</button></a>
-    <a href="Iona.html"><button class="filler">Iona.</button></a>
-    <a href="Mica.html"><button class="filler">Mica.</button></a>
-    <a href="Naum.html"><button class="filler">Naum.</button></a>
-    <a href="Hab.html"><button class="filler">Hab.</button></a>
-    <a href="Tef.html"><button class="filler">Tef.</button></a>
-    <a href="Hag.html"><button class="filler">Hag.</button></a>
-    <a href="Zah.html"><button class="filler">Zah.</button></a>
-    <a href="Mal.html"><button class="filler">Mal.</button></a>
-  </div>
+ <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo"><i class='bx bx-bible'></i>Mark's <span>Bible</span></a>
 
-    <div class="linedivider"></div>
-    <hr class="line">
-      
-      <div class="right">
-        <h1>Noul Testament</h1>
-      <a href="Mat.html"><button class="filler">Mat.</button></a>
-        <a href="Marc.html"><button class="filler">Marc.</button></a>
-        <a href="Luc.html"><button class="filler">Luc.</button></a>
-        <a href="Ioan.html"><button class="filler">Ioan.</button></a>
-        <a href="Fapt.html"><button class="filler">Fapt.</button></a>
-        <a href="Rom.html"><button class="filler">Rom.</button></a>
-        <a href="1Cor.html"><button class="filler">1Cor.</button></a>
-        <a href="2Cor.html"><button class="filler">2Cor.</button></a>
-        <a href="Gal.html"><button class="filler">Gal.</button></a>
-        <a href="Efes.html"><button class="filler">Efes.</button></a>
-        <a href="Filip.html"><button class="filler">Filip.</button></a>
-        <a href="Col.html"><button class="filler">Col.</button></a>
-        <a href="1Tes.html"><button class="filler">1Tes.</button></a>
-        <a href="2Tes.html"> <button class="filler">2Tes.</button></a>
-        <a href="1Tim.html"> <button class="filler">1Tim.</button></a>
-        <a href="2Tim.html"> <button class="filler">2Tim.</button></a>
-        <a href="Tit.html"> <button class="filler">Tit.</button></a>
-        <a href="Filim.html"> <button class="filler">Filim.</button></a>
-        <a href="Evr.html"><button class="filler">Evr.</button></a>
-        <a href="Iac.html"> <button class="filler">Iac.</button></a>
-        <a href="1Pet.html"> <button class="filler">1Pet.</button></a>
-        <a href="2Pet.html"> <button class="filler">2Pet.</button></a>
-        <a href="1Ioan.html"> <button class="filler">1Ioan.</button></a>
-        <a href="2Ioan.html"> <button class="filler">2Ioan.</button></a>
-        <a href="3Ioan.html"> <button class="filler">3Ioan.</button></a>
-        <a href="Iuda.html"> <button class="filler">Iuda.</button></a>
-        <a href="Apoc.html"> <button class="filler">Apoc.</button></a>
-      </main>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link"</a>Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#verses" class="nav-link"</a>Favorite Verses</a>
+        </li>
+        <li class="nav-item">
+          <a href="#promises" class="nav-link"</a>God's Promises</a>
+        </li>
+        <li class="nav-item">
+          <a href="#character" class="nav-link"</a>Attributes of God</a>
+        </li>
+        <li class="nav-item">
+          <a href="#jesus" class="nav-link"</a>Prophecies about Christ</a>
+        </li>
+      </ul>
+      <!-- Menu -->
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">Favorite Verses</a>
+          <a href="#">God's Promises</a>
+          <a href="#">Attributes of God</a>
+          <a href="#">Prophecies about Christ</a>
+        </div>
       </div>
+      <span  class="burger" style="font-size:50px;cursor:pointer; margin-top: -6%; margin-right: -8%;text-align: center;" onclick="openNav()">&#9776;</span>
+      <!-- Menu -->
+  </nav>
+    
+  
+    
+    
+  </header>
+  <main>
+    <section class="flex-container">
+      <div><h1>Bible Study</h1></div>
+      <div class="row">
+    <div class="column1">
+      <h1>Vechiul Testament</h1>
+  <a href="Genesa.html"><button class="filler">Gen.</button></a>
+  <a href="Exod.html"><button class="filler">Exod.</button></a>
+  <a href="Levi.html"><button class="filler">Lev.</button></a>
+  <a href="Num.html"><button class="filler">Num.</button></a>
+  <a href="Deut.html"><button class="filler">Deut.</button></a>
+  <a href="Ios.html"><button class="filler">Ios.</button></a>
+  <a href="Judc.html"><button class="filler">Judc.</button></a>
+  <a href="Rut.html"><button class="filler">Rut.</button></a>
+  <a href="1Sam.html"><button class="filler">1Sam.</button></a>
+  <a href="2Sam.html"><button class="filler">2Sam.</button></a>
+  <a href="1Reg.html"><button class="filler">1Reg.</button></a>
+  <a href="2Reg.html"><button class="filler">2Reg.</button></a>
+  <a href="1Cron.html"><button class="filler">1Cron.</button></a>
+  <a href="2Cron.html"><button class="filler">2Cron.</button></a>
+  <a href="Ezra.html"><button class="filler">Ezra.</button></a>
+  <a href="Neem.html"><button class="filler">Neem.</button></a>
+  <a href="Est.html"><button class="filler">Est.</button></a>
+  <a href="Iov.html"><button class="filler">Iov.</button></a>
+  <a href="Ps.html"><button class="filler">Ps.</button></a>
+  <a href="Prov.html"><button class="filler">Prov.</button></a>
+  <a href="Ecl.html"><button class="filler">Ecl.</button></a>
+  <a href="Cint.html"><button class="filler">Cint.</button></a>
+  <a href="Isa.html"><button class="filler">Isa.</button></a>
+  <a href="Ier.html"><button class="filler">Ier.</button></a>
+  <a href="Pling.html"><button class="filler">Pling.</button></a>
+  <a href="Ezec.html"><button class="filler">Ezec.</button></a>
+  <a href="Dan.html"><button class="filler">Dan.</button></a>
+  <a href="Osea.html"><button class="filler">Osea.</button></a>
+  <a href="Ioel.html"><button class="filler">Ioel.</button></a>
+  <a href="Amos.html"><button class="filler">Amos.</button></a>
+  <a href="Obad.html"><button class="filler">Obad.</button></a>
+  <a href="Iona.html"><button class="filler">Iona.</button></a>
+  <a href="Mica.html"><button class="filler">Mica.</button></a>
+  <a href="Naum.html"><button class="filler">Naum.</button></a>
+  <a href="Hab.html"><button class="filler">Hab.</button></a>
+  <a href="Tef.html"><button class="filler">Tef.</button></a>
+  <a href="Hag.html"><button class="filler">Hag.</button></a>
+  <a href="Zah.html"><button class="filler">Zah.</button></a>
+  <a href="Mal.html"><button class="filler">Mal.</button></a>
+</div>
+
+  <div class="linedivider"></div>
+    
+    <div class="column2">
+      <h1>Noul Testament</h1>
+    <a href="Mat.html"><button class="filler">Mat.</button></a>
+      <a href="Marc.html"><button class="filler">Marc.</button></a>
+      <a href="Luc.html"><button class="filler">Luc.</button></a>
+      <a href="Ioan.html"><button class="filler">Ioan.</button></a>
+      <a href="Fapt.html"><button class="filler">Fapt.</button></a>
+      <a href="Rom.html"><button class="filler">Rom.</button></a>
+      <a href="1Cor.html"><button class="filler">1Cor.</button></a>
+      <a href="2Cor.html"><button class="filler">2Cor.</button></a>
+      <a href="Gal.html"><button class="filler">Gal.</button></a>
+      <a href="Efes.html"><button class="filler">Efes.</button></a>
+      <a href="Filip.html"><button class="filler">Filip.</button></a>
+      <a href="Col.html"><button class="filler">Col.</button></a>
+      <a href="1Tes.html"><button class="filler">1Tes.</button></a>
+      <a href="2Tes.html"> <button class="filler">2Tes.</button></a>
+      <a href="1Tim.html"> <button class="filler">1Tim.</button></a>
+      <a href="2Tim.html"> <button class="filler">2Tim.</button></a>
+      <a href="Tit.html"> <button class="filler">Tit.</button></a>
+      <a href="Filim.html"> <button class="filler">Filim.</button></a>
+      <a href="Evr.html"><button class="filler">Evr.</button></a>
+      <a href="Iac.html"> <button class="filler">Iac.</button></a>
+      <a href="1Pet.html"> <button class="filler">1Pet.</button></a>
+      <a href="2Pet.html"> <button class="filler">2Pet.</button></a>
+      <a href="1Ioan.html"> <button class="filler">1Ioan.</button></a>
+      <a href="2Ioan.html"> <button class="filler">2Ioan.</button></a>
+      <a href="3Ioan.html"> <button class="filler">3Ioan.</button></a>
+      <a href="Iuda.html"> <button class="filler">Iuda.</button></a>
+      <a href="Apoc.html"> <button class="filler">Apoc.</button></a>
+      
+  </main>
+</div>
+</div>
 </body>
+</html>
