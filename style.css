@@ -374,6 +374,9 @@ span{
   .burger{
     margin-top: 10%;
   }
+  .nav-item{
+    display: none;
+  }
 }
 @media only screen and (max-width:425px){
   .logo{
@@ -397,6 +400,9 @@ span{
     margin-top: 3%;
 
   }
+  .nav-item{
+    display: none;
+  }
   
   .column1 {
     width: 100%;
@@ -415,6 +421,9 @@ span{
   section h1{
     margin-left: 21%;
   }
+  .nav-item{
+    display: none;
+  }
 }
 @media only screen and (max-width:390px){
   .column1 h1{
@@ -423,6 +432,9 @@ span{
   .column2 h1{
     margin-left: 13%;
   }
+  .nav-item{
+    display: none;
+  }
 }
 @media only screen and (max-width:375px){
   .logo{
@@ -430,6 +442,9 @@ span{
   }
   .column1 h1{
     margin-left: 5%;
+  }
+  .nav-item{
+    display: none;
   }
   .column2 h1{
     margin-left: 12%;
@@ -441,6 +456,9 @@ span{
   }
   .column2 h1{
     margin-left: 10%;
+  }
+  .nav-item{
+    display: none;
   }
   section h1{
     margin-left: 18%;
@@ -462,6 +480,9 @@ span{
   .column2 h1{
     font-size: 1.7rem;
     margin-left: 15%;
+  }
+  .nav-item{
+    display: none;
   }
 }
 
